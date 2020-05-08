@@ -10,6 +10,34 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
+  public appPages = [
+    {
+      title: 'Accueil',
+      url: 'home',
+      icon: 'home'
+    },
+    {
+      title: 'Le mot du pasteur',
+      url: 'pastor',
+      icon: 'create'
+    },
+    {
+      title: 'Nos réunions',
+      url: 'list',
+      icon: 'calendar'
+    },
+    {
+      title: 'Media',
+      url: 'media',
+      icon: 'film'
+    },
+    {
+      title: 'Contact',
+      url: 'contact',
+      icon: 'contact'
+    }
+  ];
+
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,

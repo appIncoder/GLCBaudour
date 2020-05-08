@@ -1,5 +1,7 @@
 {
-  "name": "glc",
-  "integrations": {},
+  "name": "GLC Baudour",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
